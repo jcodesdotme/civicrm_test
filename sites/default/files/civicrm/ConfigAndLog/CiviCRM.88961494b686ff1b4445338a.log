@@ -1,0 +1,279 @@
+Jan 14 14:53:46  [info] Creating canary table
+
+Jan 15 09:59:04  [info] $Fatal Error Details = Array
+(
+    [message] => This contact is a special one for the contact information associated with the CiviCRM installation for this domain. No one is allowed to delete it because the information is used for special system purposes.
+    [code] => 
+)
+
+
+Jan 15 09:59:04  [info] $backTrace = #0 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Error.php(378): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Contact\Form\Task\Delete.php(89): CRM_Core_Error::fatal("This contact is a special one for the contact information associated with the...")
+#2 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Form.php(543): CRM_Contact_Form_Task_Delete->preProcess()
+#3 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\QuickForm\Action\Display.php(92): CRM_Core_Form->buildForm()
+#4 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\packages\HTML\QuickForm\Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Contact_Form_Task_Delete), "display")
+#5 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\packages\HTML\QuickForm\Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Task_Delete), "display")
+#6 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Controller.php(351): HTML_QuickForm_Page->handle("display")
+#7 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Utils\Wrapper.php(113): CRM_Core_Controller->run()
+#8 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(283): CRM_Utils_Wrapper->run("CRM_Contact_Form_Task_Delete", "Delete Contact", NULL)
+#9 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(84): CRM_Core_Invoke::runItem((Array:13))
+#10 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#11 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\drupal\civicrm.module(448): CRM_Core_Invoke::invoke((Array:4))
+#12 [internal function](): civicrm_invoke("contact", "view", "delete")
+#13 C:\Users\User\Sites\craftcentral.test\includes\menu.inc(527): call_user_func_array("civicrm_invoke", (Array:3))
+#14 C:\Users\User\Sites\craftcentral.test\index.php(21): menu_execute_active_handler()
+#15 {main}
+
+
+Jan 15 11:39:31  [info] $Fatal Error Details = Array
+(
+    [message] =>  is not of the type Integer
+    [code] => 
+)
+
+
+Jan 15 11:39:31  [info] $backTrace = #0 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Error.php(378): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Utils\Type.php(380): CRM_Core_Error::fatal(" is not of the type Integer")
+#2 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Custom\Page\AJAX.php(117): CRM_Utils_Type::escape("", "Integer")
+#3 [internal function](): CRM_Custom_Page_AJAX::getMultiRecordFieldList()
+#4 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(275): call_user_func((Array:2))
+#5 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(84): CRM_Core_Invoke::runItem((Array:12))
+#6 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\drupal\civicrm.module(448): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_invoke("ajax", "multirecordfieldlist")
+#9 C:\Users\User\Sites\craftcentral.test\includes\menu.inc(527): call_user_func_array("civicrm_invoke", (Array:2))
+#10 C:\Users\User\Sites\craftcentral.test\index.php(21): menu_execute_active_handler()
+#11 {main}
+
+
+Jan 15 11:39:50  [info] $Fatal Error Details = Array
+(
+    [message] =>  is not of the type Integer
+    [code] => 
+)
+
+
+Jan 15 11:39:50  [info] $backTrace = #0 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Error.php(378): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Utils\Type.php(380): CRM_Core_Error::fatal(" is not of the type Integer")
+#2 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Custom\Page\AJAX.php(117): CRM_Utils_Type::escape("", "Integer")
+#3 [internal function](): CRM_Custom_Page_AJAX::getMultiRecordFieldList()
+#4 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(275): call_user_func((Array:2))
+#5 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(84): CRM_Core_Invoke::runItem((Array:12))
+#6 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\drupal\civicrm.module(448): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_invoke("ajax", "multirecordfieldlist")
+#9 C:\Users\User\Sites\craftcentral.test\includes\menu.inc(527): call_user_func_array("civicrm_invoke", (Array:2))
+#10 C:\Users\User\Sites\craftcentral.test\index.php(21): menu_execute_active_handler()
+#11 {main}
+
+
+Jan 15 11:39:53  [info] $Fatal Error Details = Array
+(
+    [message] =>  is not of the type Integer
+    [code] => 
+)
+
+
+Jan 15 11:39:53  [info] $backTrace = #0 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Error.php(378): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Utils\Type.php(380): CRM_Core_Error::fatal(" is not of the type Integer")
+#2 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Custom\Page\AJAX.php(117): CRM_Utils_Type::escape("", "Integer")
+#3 [internal function](): CRM_Custom_Page_AJAX::getMultiRecordFieldList()
+#4 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(275): call_user_func((Array:2))
+#5 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(84): CRM_Core_Invoke::runItem((Array:12))
+#6 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\drupal\civicrm.module(448): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_invoke("ajax", "multirecordfieldlist")
+#9 C:\Users\User\Sites\craftcentral.test\includes\menu.inc(527): call_user_func_array("civicrm_invoke", (Array:2))
+#10 C:\Users\User\Sites\craftcentral.test\index.php(21): menu_execute_active_handler()
+#11 {main}
+
+
+Jan 15 11:40:05  [info] $Fatal Error Details = Array
+(
+    [message] =>  is not of the type Integer
+    [code] => 
+)
+
+
+Jan 15 11:40:05  [info] $backTrace = #0 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Error.php(378): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Utils\Type.php(380): CRM_Core_Error::fatal(" is not of the type Integer")
+#2 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Custom\Page\AJAX.php(117): CRM_Utils_Type::escape("", "Integer")
+#3 [internal function](): CRM_Custom_Page_AJAX::getMultiRecordFieldList()
+#4 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(275): call_user_func((Array:2))
+#5 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(84): CRM_Core_Invoke::runItem((Array:12))
+#6 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\drupal\civicrm.module(448): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_invoke("ajax", "multirecordfieldlist")
+#9 C:\Users\User\Sites\craftcentral.test\includes\menu.inc(527): call_user_func_array("civicrm_invoke", (Array:2))
+#10 C:\Users\User\Sites\craftcentral.test\index.php(21): menu_execute_active_handler()
+#11 {main}
+
+
+Jan 15 11:40:16  [info] $Fatal Error Details = Array
+(
+    [message] =>  is not of the type Integer
+    [code] => 
+)
+
+
+Jan 15 11:40:16  [info] $backTrace = #0 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Error.php(378): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Utils\Type.php(380): CRM_Core_Error::fatal(" is not of the type Integer")
+#2 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Custom\Page\AJAX.php(117): CRM_Utils_Type::escape("", "Integer")
+#3 [internal function](): CRM_Custom_Page_AJAX::getMultiRecordFieldList()
+#4 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(275): call_user_func((Array:2))
+#5 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(84): CRM_Core_Invoke::runItem((Array:12))
+#6 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\drupal\civicrm.module(448): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_invoke("ajax", "multirecordfieldlist")
+#9 C:\Users\User\Sites\craftcentral.test\includes\menu.inc(527): call_user_func_array("civicrm_invoke", (Array:2))
+#10 C:\Users\User\Sites\craftcentral.test\index.php(21): menu_execute_active_handler()
+#11 {main}
+
+
+Jan 15 11:40:39  [info] $Fatal Error Details = Array
+(
+    [message] =>  is not of the type Integer
+    [code] => 
+)
+
+
+Jan 15 11:40:39  [info] $backTrace = #0 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Error.php(378): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Utils\Type.php(380): CRM_Core_Error::fatal(" is not of the type Integer")
+#2 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Custom\Page\AJAX.php(117): CRM_Utils_Type::escape("", "Integer")
+#3 [internal function](): CRM_Custom_Page_AJAX::getMultiRecordFieldList()
+#4 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(275): call_user_func((Array:2))
+#5 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(84): CRM_Core_Invoke::runItem((Array:12))
+#6 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\drupal\civicrm.module(448): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_invoke("ajax", "multirecordfieldlist")
+#9 C:\Users\User\Sites\craftcentral.test\includes\menu.inc(527): call_user_func_array("civicrm_invoke", (Array:2))
+#10 C:\Users\User\Sites\craftcentral.test\index.php(21): menu_execute_active_handler()
+#11 {main}
+
+
+Jan 15 11:41:10  [info] $Fatal Error Details = Array
+(
+    [message] =>  is not of the type Integer
+    [code] => 
+)
+
+
+Jan 15 11:41:10  [info] $backTrace = #0 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Error.php(378): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Utils\Type.php(380): CRM_Core_Error::fatal(" is not of the type Integer")
+#2 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Custom\Page\AJAX.php(117): CRM_Utils_Type::escape("", "Integer")
+#3 [internal function](): CRM_Custom_Page_AJAX::getMultiRecordFieldList()
+#4 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(275): call_user_func((Array:2))
+#5 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(84): CRM_Core_Invoke::runItem((Array:12))
+#6 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\drupal\civicrm.module(448): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_invoke("ajax", "multirecordfieldlist")
+#9 C:\Users\User\Sites\craftcentral.test\includes\menu.inc(527): call_user_func_array("civicrm_invoke", (Array:2))
+#10 C:\Users\User\Sites\craftcentral.test\index.php(21): menu_execute_active_handler()
+#11 {main}
+
+
+Jan 15 11:47:23  [info] $Fatal Error Details = Array
+(
+    [message] =>  is not of the type Integer
+    [code] => 
+)
+
+
+Jan 15 11:47:23  [info] $backTrace = #0 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Error.php(378): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Utils\Type.php(380): CRM_Core_Error::fatal(" is not of the type Integer")
+#2 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Custom\Page\AJAX.php(117): CRM_Utils_Type::escape("", "Integer")
+#3 [internal function](): CRM_Custom_Page_AJAX::getMultiRecordFieldList()
+#4 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(275): call_user_func((Array:2))
+#5 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(84): CRM_Core_Invoke::runItem((Array:12))
+#6 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\drupal\civicrm.module(448): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_invoke("ajax", "multirecordfieldlist")
+#9 C:\Users\User\Sites\craftcentral.test\includes\menu.inc(527): call_user_func_array("civicrm_invoke", (Array:2))
+#10 C:\Users\User\Sites\craftcentral.test\index.php(21): menu_execute_active_handler()
+#11 {main}
+
+
+Jan 15 11:47:50  [info] $Fatal Error Details = Array
+(
+    [message] =>  is not of the type Integer
+    [code] => 
+)
+
+
+Jan 15 11:47:50  [info] $backTrace = #0 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Error.php(378): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Utils\Type.php(380): CRM_Core_Error::fatal(" is not of the type Integer")
+#2 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Custom\Page\AJAX.php(117): CRM_Utils_Type::escape("", "Integer")
+#3 [internal function](): CRM_Custom_Page_AJAX::getMultiRecordFieldList()
+#4 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(275): call_user_func((Array:2))
+#5 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(84): CRM_Core_Invoke::runItem((Array:12))
+#6 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\drupal\civicrm.module(448): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_invoke("ajax", "multirecordfieldlist")
+#9 C:\Users\User\Sites\craftcentral.test\includes\menu.inc(527): call_user_func_array("civicrm_invoke", (Array:2))
+#10 C:\Users\User\Sites\craftcentral.test\index.php(21): menu_execute_active_handler()
+#11 {main}
+
+
+Jan 15 11:47:53  [info] $Fatal Error Details = Array
+(
+    [message] =>  is not of the type Integer
+    [code] => 
+)
+
+
+Jan 15 11:47:53  [info] $backTrace = #0 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Error.php(378): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Utils\Type.php(380): CRM_Core_Error::fatal(" is not of the type Integer")
+#2 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Custom\Page\AJAX.php(117): CRM_Utils_Type::escape("", "Integer")
+#3 [internal function](): CRM_Custom_Page_AJAX::getMultiRecordFieldList()
+#4 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(275): call_user_func((Array:2))
+#5 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(84): CRM_Core_Invoke::runItem((Array:12))
+#6 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\drupal\civicrm.module(448): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_invoke("ajax", "multirecordfieldlist")
+#9 C:\Users\User\Sites\craftcentral.test\includes\menu.inc(527): call_user_func_array("civicrm_invoke", (Array:2))
+#10 C:\Users\User\Sites\craftcentral.test\index.php(21): menu_execute_active_handler()
+#11 {main}
+
+
+Jan 15 11:47:58  [info] $Fatal Error Details = Array
+(
+    [message] =>  is not of the type Integer
+    [code] => 
+)
+
+
+Jan 15 11:47:58  [info] $backTrace = #0 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Error.php(378): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Utils\Type.php(380): CRM_Core_Error::fatal(" is not of the type Integer")
+#2 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Custom\Page\AJAX.php(117): CRM_Utils_Type::escape("", "Integer")
+#3 [internal function](): CRM_Custom_Page_AJAX::getMultiRecordFieldList()
+#4 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(275): call_user_func((Array:2))
+#5 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(84): CRM_Core_Invoke::runItem((Array:12))
+#6 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\drupal\civicrm.module(448): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_invoke("ajax", "multirecordfieldlist")
+#9 C:\Users\User\Sites\craftcentral.test\includes\menu.inc(527): call_user_func_array("civicrm_invoke", (Array:2))
+#10 C:\Users\User\Sites\craftcentral.test\index.php(21): menu_execute_active_handler()
+#11 {main}
+
+
+Jan 15 11:48:07  [info] $Fatal Error Details = Array
+(
+    [message] =>  is not of the type Integer
+    [code] => 
+)
+
+
+Jan 15 11:48:07  [info] $backTrace = #0 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Error.php(378): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Utils\Type.php(380): CRM_Core_Error::fatal(" is not of the type Integer")
+#2 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Custom\Page\AJAX.php(117): CRM_Utils_Type::escape("", "Integer")
+#3 [internal function](): CRM_Custom_Page_AJAX::getMultiRecordFieldList()
+#4 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(275): call_user_func((Array:2))
+#5 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(84): CRM_Core_Invoke::runItem((Array:12))
+#6 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\CRM\Core\Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#7 C:\Users\User\Sites\craftcentral.test\sites\all\modules\civicrm\drupal\civicrm.module(448): CRM_Core_Invoke::invoke((Array:3))
+#8 [internal function](): civicrm_invoke("ajax", "multirecordfieldlist")
+#9 C:\Users\User\Sites\craftcentral.test\includes\menu.inc(527): call_user_func_array("civicrm_invoke", (Array:2))
+#10 C:\Users\User\Sites\craftcentral.test\index.php(21): menu_execute_active_handler()
+#11 {main}
+
+
